@@ -17,7 +17,7 @@ public class ClienteController {
 	private ClienteRepository clienteRepository; 
 
 	
-	@RequestMapping(method = RequestMethod.GET, value ="/cadastarCliente")
+	@RequestMapping(method = RequestMethod.GET, value ="/salvar_cliente")
 	public String cliente() { 
 		return "/cadastro/cadastroCliente";
 	}
